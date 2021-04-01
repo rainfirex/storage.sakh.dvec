@@ -1,0 +1,20 @@
+.error-text{
+    display: none;
+    color: red;
+}
+
+.is-error{
+    .error-show{
+        display: inline;
+        float: right;
+    }
+}
+
+.error-input{
+    border: solid 1px #bf5252;
+}
+
+.error-input:focus {
+    border-color: #bf5252 !important;
+    box-shadow: 0 0 0 0.2rem rgb(255 0 33 / 25%);
+}
