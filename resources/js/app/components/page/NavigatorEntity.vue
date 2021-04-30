@@ -23,10 +23,6 @@
 
 <style lang="scss" scoped>
     .navigator-entity{
-        /*position: fixed;*/
-        /*top: 10px;*/
-        /*width: 20%;*/
-        /*max-width: 250px;*/
         ul{
             padding: 5px;
             margin: 0;

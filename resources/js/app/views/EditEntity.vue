@@ -267,11 +267,8 @@
                     </div>
                 </div>
             </div>
-
             <hr>
-
-            <Passwords :passwords="passwords" @updatePasswords="user.passwords = $event"></Passwords>
-
+            <PasswordsInTable :passwords="passwords" @updatePasswords="user.passwords = $event"></PasswordsInTable>
         </form>
 
     </div>
@@ -280,13 +277,13 @@
 
 <script>
     import FindUserInAD from "../components/FindUserInAD";
-    import Passwords from "../components/Passwords";
+    import PasswordsInTable from "../components/PasswordsInTable";
     import { mapActions } from 'vuex';
     export default {
         name: "EditEntity",
         components:{
             FindUserInAD,
-            Passwords
+            PasswordsInTable
         },
         computed:{
             getUser() {

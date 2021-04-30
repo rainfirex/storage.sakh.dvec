@@ -295,11 +295,8 @@
                     </div>
                 </div>
             </div>
-
             <hr>
-
-            <Passwords :passwords="passwords" @updatePasswords="passwords = $event"></Passwords>
-
+            <PasswordsInTable :passwords="passwords" @updatePasswords="passwords = $event"></PasswordsInTable>
         </form>
     </div>
 </template>
@@ -307,13 +304,12 @@
 <script>
     import FindUserInAD from "../components/FindUserInAD";
     import { mapActions } from 'vuex';
-    import Passwords from "../components/Passwords";
-
+    import PasswordsInTable from "../components/PasswordsInTable";
     export default {
         name: "CreateEntity",
         components:{
             FindUserInAD,
-            Passwords
+            PasswordsInTable
         },
         computed:{
             getUser() {

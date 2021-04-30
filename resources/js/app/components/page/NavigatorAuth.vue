@@ -31,10 +31,6 @@
 
 <style lang="scss" scoped>
     .navigator-auth{
-        /*position: fixed;*/
-        /*bottom: 5px;*/
-        /*width: 20%;*/
-        /*max-width: 250px;*/
         ul{
             padding: 0;
             margin: 0;

@@ -57,7 +57,6 @@
                 document.execCommand('copy');
             },
             removePassword(index, id){
-
                 if (!confirm(`Вы собираетесь удалить пароль. Выполнить это действие?`))
                     return;
 
