@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Password</title>
+        <title>storage</title>
         <link rel="stylesheet" type="text/css" href="{{ asset('fontawesome/font-awesome.min.css') }}">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
